@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/car_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="车辆信息"
+        android:onClick="onCarInfoClicked"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/customer_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="顾客信息"
+        android:onClick="onCusInfoClicked"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/worker_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="员工信息"
+        android:onClick="onWokerInfoClicked"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/review_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="审核管理"
+        android:onClick="onReviewInfoClicked"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/finish_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已完成订单"
+        android:onClick="onFinishInoClicked"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/income_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="财务报表"
+        android:onClick="onIncomeInfoClicked"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
